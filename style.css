@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+.page {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+}
+.pageleft {
+  width: 45%;
+  height: 100%;
+  background-image: url("rose.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.pageright {
+  width: 55%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.subtitle {
+  color: grey;
+}
+.price {
+  font-size: 40px;
+  font-weight: 500;
+}
+.buttom {
+  margin-top: 40px;
+  padding: 2px 35px 5px 35px;
+  text-decoration: none;
+  background-color: blueviolet;
+  color: antiquewhite;
+  text-align: center;
+  border-radius: 10px;
+}
